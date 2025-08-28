@@ -2,7 +2,7 @@
 
 This project is a **Finance Chatbot** powered by Large Language Models (LLMs). It was built using **LangChain, Pinecone, and Flask**, then **containerized with Docker** and deployed on **AWS** using IAM, ECR, and EC2.
 
----
+
 
 ## Features
 
