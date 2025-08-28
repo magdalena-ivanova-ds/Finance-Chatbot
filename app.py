@@ -23,7 +23,7 @@ os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 embeddings = download_embeddings()
 
 
-index_name = "medical-chatbot"
+index_name = "finance-chatbot"
 #Embed each chunk and upsert the embeddings into Picone index
 docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
